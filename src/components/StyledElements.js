@@ -178,7 +178,7 @@ export const NavBtnLink = styled(Link)`
 `;
 
 
-export const Texto = styled.text`
+export const Texto = styled.div`
   color: #fff;
   display: flex;
   align-items: center;

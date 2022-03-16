@@ -42,18 +42,18 @@ function Pruebas() {
               </Texto>
           </Nav>
 
-    <section class="cards-wrapper">
-  <div class="card-grid-space">
+    <section className="cards-wrapper">
+  <div className="card-grid-space">
     filtro?
-    <a class="card">
+    <a className="card">
     <Line
           data={{
-            labels: [1,2,5,1,1,1,1,1],
+            labels: [1,2,5,1,1,1,1,1,1,1,1,1,1],
             datasets: [
               {
                 label: "graph5",
-                data: [1,2,3,2,4,6,7,8],
-                borderColor: "pink",
+                data: [1,2,3,2,4,6,7,8,23,44,22,3,2,9],
+                borderColor: "blue",
                 borderWidth: 1,
               },
             ],
@@ -80,8 +80,8 @@ function Pruebas() {
         />
     </a>
   </div>
-  <div class="card-grid-space">
-    <a class="card">
+  <div className="card-grid-space">
+    <a className="card">
     <Line
           data={{
             labels: [1,2,5,1,1,1,1,1],
@@ -117,8 +117,8 @@ function Pruebas() {
         
     </a>
   </div>
-  <div class="card-grid-space">
-    <a class="card" >
+  <div className="card-grid-space">
+    <a className="card" >
     <Line
           data={{
             labels: [1,2,5,1,1,1,1,1],
@@ -154,8 +154,8 @@ function Pruebas() {
         />
     </a>
   </div>
-  <div class="card-grid-space">
-    <a class="card" >
+  <div className="card-grid-space">
+    <a className="card" >
     <Line
             
             data={{
@@ -193,8 +193,8 @@ function Pruebas() {
 
     </a>
   </div>
-  <div class="card-grid-space">
-    <a class="card" >
+  <div className="card-grid-space">
+    <a className="card" >
     <Line
           data={{
             labels: [1,2,5,1,2,2,2,2,2,2,0],
